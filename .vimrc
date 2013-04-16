@@ -11,9 +11,9 @@ sunmap w
 sunmap b
 sunmap e
 
-inoremap <C-P> <ESC>:call PhpDocSingle()<CR>i 
-nnoremap <C-P> :call PhpDocSingle()<CR> 
-vnoremap <C-P> :call PhpDocRange()<CR> 
+inoremap <C-o> <ESC>:call PhpDocSingle()<CR>i 
+nnoremap <C-o> :call PhpDocSingle()<CR> 
+vnoremap <C-o> :call PhpDocRange()<CR> 
 
 map <C-t> :CommandT<CR>
 sunmap <C-t>

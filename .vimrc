@@ -37,12 +37,12 @@ function! Tabs()
 	set shiftwidth=4
 endfunction
 
-function! Spaces()
+function! Spaces(n)
 	set expandtab
-	set tabstop=2
-	set shiftwidth=2
+	let &l:tabstop=a:n
+	let &l:shiftwidth=a:n
 endfunction
 
 command! Tabs call Tabs()
-command! Spaces call Spaces()
+command! -nargs=1 Spaces call Spaces(<f-args>)
 

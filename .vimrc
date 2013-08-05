@@ -22,7 +22,8 @@ imap <C-e> <C-y>
 
 colorscheme dark
 
-set guifont=WenQuanYi\ Micro\ Hei\ Mono\ 11
+" set guifont=WenQuanYi\ Micro\ Hei\ Mono\ 11
+set guifont=Bitstream\ Vera\ Sans\ Mono\ 11
 set guioptions-=m
 set guioptions-=T
 set guioptions+=r

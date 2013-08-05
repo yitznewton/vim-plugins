@@ -30,7 +30,7 @@ set guioptions+=r
 set guioptions-=l
 set guioptions-=L
 
-let g:NERDTreeWinSize = 45
+let g:NERDTreeWinSize = 25
 
 function! Tabs()
 	set noexpandtab

@@ -1,3 +1,4 @@
+let mapleader=","
 set shiftwidth=4
 set tabstop=4
 set hidden
@@ -48,4 +49,6 @@ command! Tabs call Tabs()
 command! -nargs=1 Spaces call Spaces(<f-args>)
 
 let NERDTreeIgnore = ['\.pyc$']
+
+filetype plugin on
 

@@ -35,11 +35,15 @@
 ,b	camelcasemotion.txt	/*,b*
 ,e	camelcasemotion.txt	/*,e*
 ,w	camelcasemotion.txt	/*,w*
+:Ack	ack.txt	/*:Ack*
+:AckAdd	ack.txt	/*:AckAdd*
 :CommandT	command-t.txt	/*:CommandT*
 :CommandTBuffer	command-t.txt	/*:CommandTBuffer*
 :CommandTFlush	command-t.txt	/*:CommandTFlush*
 :CommandTJumps	command-t.txt	/*:CommandTJumps*
 :CommandTTag	command-t.txt	/*:CommandTTag*
+:LAck	ack.txt	/*:LAck*
+:LAckAdd	ack.txt	/*:LAckAdd*
 :NERDTree	NERD_tree.txt	/*:NERDTree*
 :NERDTreeClose	NERD_tree.txt	/*:NERDTreeClose*
 :NERDTreeFind	NERD_tree.txt	/*:NERDTreeFind*
@@ -151,6 +155,9 @@ NERDTreeOptions	NERD_tree.txt	/*NERDTreeOptions*
 NERDTreeRender()	NERD_tree.txt	/*NERDTreeRender()*
 NERD_commenter.txt	NERD_commenter.txt	/*NERD_commenter.txt*
 NERD_tree.txt	NERD_tree.txt	/*NERD_tree.txt*
+ack	ack.txt	/*ack*
+ack-author	ack.txt	/*ack-author*
+ack.txt	ack.txt	/*ack.txt*
 camelcasemotion-configuration	camelcasemotion.txt	/*camelcasemotion-configuration*
 camelcasemotion-dependencies	camelcasemotion.txt	/*camelcasemotion-dependencies*
 camelcasemotion-description	camelcasemotion.txt	/*camelcasemotion-description*

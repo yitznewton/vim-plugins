@@ -12,6 +12,9 @@ sunmap w
 sunmap b
 sunmap e
 
+map <M-[> :tabp<CR>
+map <M-]> :tabn<CR>
+
 inoremap <C-o> <ESC>:call PhpDocSingle()<CR>i 
 nnoremap <C-o> :call PhpDocSingle()<CR> 
 vnoremap <C-o> :call PhpDocRange()<CR> 
@@ -24,7 +27,9 @@ imap <C-e> <C-y>
 colorscheme dark
 
 " set guifont=WenQuanYi\ Micro\ Hei\ Mono\ 11
-set guifont=Bitstream\ Vera\ Sans\ Mono\ 11
+" set guifont=Bitstream\ Vera\ Sans\ Mono\ 11
+" set guifont=Source\ Code\ Pro\ 11
+set guifont=Droid\ Sans\ Mono\ 11
 set guioptions-=m
 set guioptions-=T
 set guioptions+=r

@@ -7,6 +7,10 @@ set autoindent
 set number
 set cc=76
 
+:au FocusLost * :wa
+
+set autowrite
+
 map w <Plug>CamelCaseMotion_w
 map b <Plug>CamelCaseMotion_b
 map e <Plug>CamelCaseMotion_e

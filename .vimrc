@@ -60,3 +60,5 @@ let NERDTreeIgnore = ['\.pyc$']
 
 filetype plugin on
 
+nmap <silent> y' :let @" = expand("%:p")<CR>
+

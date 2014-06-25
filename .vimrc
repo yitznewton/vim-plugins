@@ -32,7 +32,7 @@ colorscheme dark
 " set guifont=WenQuanYi\ Micro\ Hei\ Mono\ 11
 " set guifont=Bitstream\ Vera\ Sans\ Mono\ 11
 " set guifont=Source\ Code\ Pro\ 11
-set guifont=Droid\ Sans\ Mono\ 11
+set guifont=Droid\ Sans\ Mono:h15
 set guioptions-=m
 set guioptions-=T
 set guioptions+=r

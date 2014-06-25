@@ -1,8 +1,10 @@
 let mapleader=","
 set shiftwidth=4
 set tabstop=4
+set expandtab
 set hidden
 set autoindent
+set number
 set cc=76
 
 map w <Plug>CamelCaseMotion_w

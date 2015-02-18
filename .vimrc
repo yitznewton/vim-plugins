@@ -1,6 +1,6 @@
 let mapleader=","
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
 set expandtab
 set hidden
 set autoindent
@@ -20,12 +20,6 @@ sunmap e
 
 map <M-[> :tabp<CR>
 map <M-]> :tabn<CR>
-
-inoremap <C-o> <ESC>:call PhpDocSingle()<CR>i 
-nnoremap <C-o> :call PhpDocSingle()<CR> 
-vnoremap <C-o> :call PhpDocRange()<CR> 
-
-imap <C-e> <C-y>
 
 colorscheme dark
 
